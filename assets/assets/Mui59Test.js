@@ -14,15 +14,15 @@
 
 import React from 'react';
 import { Alert, TextField, InputAdornment, SvgIcon, Button, Link, Autocomplete, Checkbox, FormControlLabel, Avatar, Switch } from '@mui/material';
-import Avatar2Image from './assets/images/Avatar_8.png';
-import Avatar3Image from './assets/images/Avatar_7.png';
-import Avatar4Image from './assets/images/Avatar_6.png';
-import Avatar5Image from './assets/images/Avatar_5.png';
-import Avatar6Image from './assets/images/Avatar_4.png';
-import Avatar7Image from './assets/images/Avatar_3.png';
-import Avatar8Image from './assets/images/Avatar_2.png';
-import Avatar9Image from './assets/images/Avatar_1.png';
-import Avatar10Image from './assets/images/Avatar.png';
+import Avatar2Image from '../assets/hello/images/Avatar_8.png';
+import Avatar3Image from '../assets/hello/images/Avatar_7.png';
+import Avatar4Image from '../assets/hello/images/Avatar_6.png';
+import Avatar5Image from '../assets/hello/images/Avatar_5.png';
+import Avatar6Image from '../assets/hello/images/Avatar_4.png';
+import Avatar7Image from '../assets/hello/images/Avatar_3.png';
+import Avatar8Image from '../assets/hello/images/Avatar_2.png';
+import Avatar9Image from '../assets/hello/images/Avatar_1.png';
+import Avatar10Image from '../assets/hello/images/Avatar.png';
 import { ReactComponent as RemoveRedEyeFilled1 } from './assets/images/RemoveRedEyeFilled.svg';
 import { ReactComponent as RemoveRedEyeFilled2 } from './assets/images/RemoveRedEyeFilled.svg';
 import { ReactComponent as RemoveRedEyeFilled3 } from './assets/images/RemoveRedEyeFilled.svg';
