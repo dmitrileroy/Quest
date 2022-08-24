@@ -12,26 +12,40 @@
 *
 **********************************************************************/
 
-import { Alert, TextField, InputAdornment, SvgIcon, Button, Link, Autocomplete, Checkbox, FormControlLabel, Avatar, Switch } from '@mui/material';
-import Avatar2Image from './assets/images/Avatar_8.png';
-import Avatar3Image from './assets/images/Avatar_7.png';
-import Avatar4Image from './assets/images/Avatar_6.png';
-import Avatar5Image from './assets/images/Avatar_5.png';
-import Avatar6Image from './assets/images/Avatar_4.png';
-import Avatar7Image from './assets/images/Avatar_3.png';
-import Avatar8Image from './assets/images/Avatar_2.png';
-import Avatar9Image from './assets/images/Avatar_1.png';
-import Avatar10Image from './assets/images/Avatar.png';
-import { ReactComponent as RemoveRedEyeFilled1 } from './assets/images/RemoveRedEyeFilled.svg';
-import { ReactComponent as RemoveRedEyeFilled2 } from './assets/images/RemoveRedEyeFilled.svg';
-import { ReactComponent as RemoveRedEyeFilled3 } from './assets/images/RemoveRedEyeFilled.svg';
+import { Alert, Button, SvgIcon, Link, Autocomplete, TextField, Checkbox, FormControlLabel, Avatar, Switch } from '@mui/material';
+import Avatar1Image from './assets/images/Avatar_8.png';
+import Avatar2Image from './assets/images/Avatar_7.png';
+import Avatar3Image from './assets/images/Avatar_6.png';
+import Avatar4Image from './assets/images/Avatar_5.png';
+import Avatar5Image from './assets/images/Avatar_4.png';
+import Avatar6Image from './assets/images/Avatar_3.png';
+import Avatar7Image from './assets/images/Avatar_2.png';
+import Avatar8Image from './assets/images/Avatar_1.png';
+import Avatar9Image from './assets/images/Avatar.png';
 import { ReactComponent as ChevronRightFilled1 } from './assets/images/ChevronRightFilled.svg';
 import { ReactComponent as ChevronRightFilled2 } from './assets/images/ChevronRightFilled.svg';
-import { ReactComponent as ChevronLeftFilled1 } from './assets/images/ChevronLeftFilled.svg';
-import { ReactComponent as StarFilled1 } from './assets/images/StarFilled.svg';
-import { ReactComponent as StarHalfFilled1 } from './assets/images/StarHalfFilled.svg';
-import { ReactComponent as StarFilled2 } from './assets/images/StarFilled.svg';
+import { ReactComponent as ChevronRightFilled3 } from './assets/images/ChevronRightFilled.svg';
+import { ReactComponent as ChevronRightFilled4 } from './assets/images/ChevronRightFilled.svg';
+import { ReactComponent as ArrowForwardFilled1 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled2 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled3 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled4 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled5 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled6 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled7 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ChevronRightFilled5 } from './assets/images/ChevronRightFilled.svg';
+import { ReactComponent as ChevronRightFilled6 } from './assets/images/ChevronRightFilled.svg';
+import { ReactComponent as ArrowForwardFilled8 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled9 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled10 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled11 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled12 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ChevronRightFilled7 } from './assets/images/ChevronRightFilled.svg';
+import { ReactComponent as ArrowForwardFilled13 } from './assets/images/ArrowForwardFilled.svg';
+import { ReactComponent as ArrowForwardFilled14 } from './assets/images/ArrowForwardFilled.svg';
 import { styled } from '@mui/material/styles';
+import AlertOutlined from './AlertOutlined';
+import AlertStandard from './AlertStandard';
 import Table from './Table';
 
  
@@ -40,26 +54,14 @@ const Mui59Test1 = styled("div")({
   display: `flex`,  
   position: `relative`,  
   isolation: `isolate`,  
-  flexDirection: `column`,  
-  justifyContent: `flex-start`,  
-  alignItems: `flex-start`,  
-  padding: `20px`,  
-  boxSizing: `border-box`,  
-});
-  
-const Top = styled("div")({  
-  display: `flex`,  
-  position: `relative`,  
-  isolation: `isolate`,  
   flexDirection: `row`,  
   justifyContent: `flex-start`,  
   alignItems: `flex-start`,  
-  padding: `0px`,  
+  padding: `200px`,  
   boxSizing: `border-box`,  
-  margin: `0px`,  
 });
   
-const Alerts = styled("div")({  
+const Frame7 = styled("div")({  
   display: `flex`,  
   position: `relative`,  
   isolation: `isolate`,  
@@ -76,109 +78,62 @@ const AlertFilled = styled(Alert)({
   margin: `0px`,  
 });
   
+const AlertOutlined1 = styled(AlertOutlined)(({ theme }) =>({  
+  width: `320px`,  
+  margin: `20px 0px 0px 0px`,  
+}));
+  
+const AlertStandard1 = styled(AlertStandard)(({ theme }) =>({  
+  width: `320px`,  
+  margin: `20px 0px 0px 0px`,  
+}));
+  
 const AlertFilled1 = styled(Alert)({  
   width: `320px`,  
   margin: `20px 0px 0px 0px`,  
 });
+  
+const AlertOutlined2 = styled(AlertOutlined)(({ theme }) =>({  
+  width: `320px`,  
+  margin: `20px 0px 0px 0px`,  
+}));
+  
+const AlertStandard2 = styled(AlertStandard)(({ theme }) =>({  
+  width: `320px`,  
+  margin: `20px 0px 0px 0px`,  
+}));
   
 const AlertFilled2 = styled(Alert)({  
   width: `320px`,  
   margin: `20px 0px 0px 0px`,  
 });
   
+const AlertOutlined3 = styled(AlertOutlined)(({ theme }) =>({  
+  width: `320px`,  
+  margin: `20px 0px 0px 0px`,  
+}));
+  
+const AlertStandard3 = styled(AlertStandard)(({ theme }) =>({  
+  width: `320px`,  
+  margin: `20px 0px 0px 0px`,  
+}));
+  
 const AlertFilled3 = styled(Alert)({  
   width: `320px`,  
   margin: `20px 0px 0px 0px`,  
 });
   
-const TextFields = styled("div")({  
-  display: `flex`,  
-  position: `relative`,  
-  isolation: `isolate`,  
-  flexDirection: `column`,  
-  justifyContent: `flex-start`,  
-  alignItems: `center`,  
-  padding: `0px`,  
-  boxSizing: `border-box`,  
-  margin: `0px 0px 0px 30px`,  
-});
+const AlertOutlined4 = styled(AlertOutlined)(({ theme }) =>({  
+  width: `320px`,  
+  margin: `20px 0px 0px 0px`,  
+}));
   
-const TextFieldStandard = styled(TextField)({  
-  width: `220px`,  
-  margin: `0px`,  
-});
+const AlertStandard4 = styled(AlertStandard)(({ theme }) =>({  
+  width: `320px`,  
+  margin: `20px 0px 0px 0px`,  
+}));
   
-const TextFieldStandard1 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldStandard2 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldFilled = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldFilled1 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldOutlined = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldStandard3 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldFilled2 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldOutlined1 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldStandard4 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldOutlined2 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldFilled3 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldStandard5 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldOutlined3 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const TextFieldFilled4 = styled(TextField)({  
-  width: `220px`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const Buttons = styled("div")({  
+const Frame2 = styled("div")({  
   display: `flex`,  
   position: `relative`,  
   isolation: `isolate`,  
@@ -274,34 +229,7 @@ const ButtonOutlined6 = styled(Button)({
   margin: `10px 0px 0px 0px`,  
 });
   
-const Icons = styled("div")({  
-  display: `flex`,  
-  position: `relative`,  
-  isolation: `isolate`,  
-  flexDirection: `column`,  
-  justifyContent: `flex-start`,  
-  alignItems: `flex-start`,  
-  padding: `0px`,  
-  boxSizing: `border-box`,  
-  margin: `0px 0px 0px 30px`,  
-});
-  
-const Icon1 = styled(SvgIcon)(({ theme }) =>({  
-  color: theme.palette["Action"]["Active (54p)"],  
-  margin: `0px`,  
-}));
-  
-const Icon2 = styled(SvgIcon)(({ theme }) =>({  
-  color: theme.palette["Action"]["Active (54p)"],  
-  margin: `30px 0px 0px 0px`,  
-}));
-  
-const Icon3 = styled(SvgIcon)(({ theme }) =>({  
-  color: theme.palette["Action"]["Active (54p)"],  
-  margin: `30px 0px 0px 0px`,  
-}));
-  
-const Links = styled("div")({  
+const Frame4 = styled("div")({  
   display: `flex`,  
   position: `relative`,  
   isolation: `isolate`,  
@@ -397,7 +325,7 @@ const Link7 = styled(Link)(({ theme }) =>({
   margin: `10px 0px 0px 0px`,  
 }));
   
-const AutoComplete = styled("div")({  
+const Frame3 = styled("div")({  
   display: `flex`,  
   position: `relative`,  
   isolation: `isolate`,  
@@ -439,19 +367,7 @@ const Autocomplete6 = styled(Autocomplete)({
   margin: `10px 0px 0px 0px`,  
 });
   
-const Btm = styled("div")({  
-  display: `flex`,  
-  position: `relative`,  
-  isolation: `isolate`,  
-  flexDirection: `row`,  
-  justifyContent: `flex-start`,  
-  alignItems: `flex-start`,  
-  padding: `0px`,  
-  boxSizing: `border-box`,  
-  margin: `30px 0px 0px 0px`,  
-});
-  
-const Checkboxes = styled("div")({  
+const Frame9 = styled("div")({  
   display: `flex`,  
   position: `relative`,  
   isolation: `isolate`,  
@@ -460,7 +376,7 @@ const Checkboxes = styled("div")({
   alignItems: `flex-start`,  
   padding: `0px`,  
   boxSizing: `border-box`,  
-  margin: `0px`,  
+  margin: `0px 0px 0px 30px`,  
 });
   
 const Checkbox1 = styled(Checkbox)({  
@@ -555,7 +471,7 @@ const Checkbox23 = styled(Checkbox)({
   margin: `30px 0px 0px 0px`,  
 });
   
-const Avatar1 = styled("div")({  
+const Frame8 = styled("div")({  
   display: `flex`,  
   position: `relative`,  
   isolation: `isolate`,  
@@ -567,61 +483,61 @@ const Avatar1 = styled("div")({
   margin: `0px 0px 0px 30px`,  
 });
   
-const Avatar2 = styled(Avatar)({  
+const Avatar1 = styled(Avatar)({  
   margin: `0px`,  
   width: `40px`,  
   height: `40px`,  
+});
+  
+const Avatar2 = styled(Avatar)({  
+  margin: `30px 0px 0px 0px`,  
+  width: `32px`,  
+  height: `32px`,  
 });
   
 const Avatar3 = styled(Avatar)({  
   margin: `30px 0px 0px 0px`,  
-  width: `32px`,  
-  height: `32px`,  
+  width: `24px`,  
+  height: `24px`,  
 });
   
 const Avatar4 = styled(Avatar)({  
   margin: `30px 0px 0px 0px`,  
-  width: `24px`,  
-  height: `24px`,  
+  width: `40px`,  
+  height: `40px`,  
 });
   
 const Avatar5 = styled(Avatar)({  
   margin: `30px 0px 0px 0px`,  
-  width: `40px`,  
-  height: `40px`,  
+  width: `32px`,  
+  height: `32px`,  
 });
   
 const Avatar6 = styled(Avatar)({  
   margin: `30px 0px 0px 0px`,  
-  width: `32px`,  
-  height: `32px`,  
-});
-  
-const Avatar7 = styled(Avatar)({  
-  margin: `30px 0px 0px 0px`,  
   width: `24px`,  
   height: `24px`,  
 });
   
-const Avatar8 = styled(Avatar)({  
+const Avatar7 = styled(Avatar)({  
   margin: `30px 0px 0px 0px`,  
   width: `40px`,  
   height: `40px`,  
 });
   
-const Avatar9 = styled(Avatar)({  
+const Avatar8 = styled(Avatar)({  
   margin: `30px 0px 0px 0px`,  
   width: `32px`,  
   height: `32px`,  
 });
   
-const Avatar10 = styled(Avatar)({  
+const Avatar9 = styled(Avatar)({  
   margin: `30px 0px 0px 0px`,  
   width: `24px`,  
   height: `24px`,  
 });
   
-const Switch1 = styled("div")({  
+const Frame10 = styled("div")({  
   display: `flex`,  
   position: `relative`,  
   isolation: `isolate`,  
@@ -633,8 +549,12 @@ const Switch1 = styled("div")({
   margin: `0px 0px 0px 30px`,  
 });
   
-const Switch2 = styled(Switch)({  
+const Switch1 = styled(Switch)({  
   margin: `0px`,  
+});
+  
+const Switch2 = styled(Switch)({  
+  margin: `30px 0px 0px 0px`,  
 });
   
 const Switch3 = styled(Switch)({  
@@ -705,10 +625,6 @@ const Switch19 = styled(Switch)({
   margin: `30px 0px 0px 0px`,  
 });
   
-const Switch20 = styled(Switch)({  
-  margin: `30px 0px 0px 0px`,  
-});
-  
 const Table1 = styled(Table)(({ theme }) =>({  
   width: `600px`,  
   margin: `0px 0px 0px 30px`,  
@@ -717,136 +633,118 @@ const Table1 = styled(Table)(({ theme }) =>({
 function Mui59Test() {
   return (
     <Mui59Test1 >
-       <Top >
-         <Alerts >
-           <AlertFilled variant="filled" severity={"warning"}   > Alert content </AlertFilled>
-             <AlertFilled1 variant="filled" severity={"error"}   > Description </AlertFilled1>
-             <AlertFilled2 variant="filled" severity={"info"}   > Description </AlertFilled2>
-             <AlertFilled3 variant="filled" severity={"success"}   > Description </AlertFilled3>
-           </Alerts>
-         <TextFields >
-           <TextFieldStandard variant="standard" size="medium"  label={`Label`}   />
-           <TextFieldStandard1 variant="standard" size="medium"  label={`Label`} helperText="Helper text"   />
-           <TextFieldStandard2 variant="standard" size="medium"  label={`Label`} helperText="Helper text"   />
-           <TextFieldFilled variant="filled" size="medium"  label={`Label`} helperText="Helper text" InputProps={{endAdornment: <InputAdornment position="end"><SvgIcon sx={{width: "24px", height: "24px"}} component = { RemoveRedEyeFilled1 } /></InputAdornment>}}  />
-           <TextFieldFilled1 variant="filled" size="medium"  label={`Label`} helperText="Helper text" InputProps={{endAdornment: <InputAdornment position="end"><SvgIcon sx={{width: "24px", height: "24px"}} component = { RemoveRedEyeFilled2 } /></InputAdornment>}}  />
-           <TextFieldOutlined variant="outlined" size="medium"  label={`Label`} helperText="Helper text"   />
-           <TextFieldStandard3 variant="standard" size="medium"  label={`Label`} helperText="Helper text"   />
-           <TextFieldFilled2 variant="filled" size="medium"  label={`Label`} helperText="Helper text"   />
-           <TextFieldOutlined1 variant="outlined" size="medium"  label={`Label`} helperText="Helper text"   />
-           <TextFieldStandard4 variant="standard" size="small"  label={`Label`} helperText="Helper text"   />
-           <TextFieldOutlined2 variant="outlined" size="small"  label={`Label`} helperText="Helper text"   />
-           <TextFieldFilled3 variant="filled" size="small"  label={`Label`} helperText="Helper text" InputProps={{endAdornment: <InputAdornment position="end"><SvgIcon sx={{width: "24px", height: "24px"}} component = { RemoveRedEyeFilled3 } /></InputAdornment>}}  />
-           <TextFieldStandard5 variant="standard" size="small"  label={`Label`} helperText="Helper text"   />
-           <TextFieldOutlined3 variant="outlined" size="small"  label={`Label`} helperText="Helper text"   />
-           <TextFieldFilled4 variant="filled" size="small"  label={`Label`} helperText="Helper text"   />
-         </TextFields>
-         <Buttons >
-           <ButtonContained variant="contained" size="large" color="primary"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ChevronRightFilled1 } />}  > Large </ButtonContained>
-           <ButtonContained1 variant="contained" size="large" color="info"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ChevronRightFilled2 } />}  > Large </ButtonContained1>
-           <ButtonContained2 variant="contained" size="large" color="info"   startIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ChevronLeftFilled1 } />}  > Large </ButtonContained2>
-           <ButtonContained3 variant="contained" size="large" color="success"    > Large </ButtonContained3>
-           <ButtonText variant="text" size="large" color="primary"    > Large </ButtonText>
-           <ButtonText1 variant="text" size="large" color="info"    > Large </ButtonText1>
-           <ButtonText2 variant="text" size="large" color="info"    > Large </ButtonText2>
-           <ButtonOutlined variant="outlined" size="large" color="primary"    > Large </ButtonOutlined>
-           <ButtonOutlined1 variant="outlined" size="large" color="info"    > Large </ButtonOutlined1>
-           <ButtonOutlined2 variant="outlined" size="large" color="success"    > Large </ButtonOutlined2>
-           <ButtonOutlined3 variant="outlined" size="large" color="secondary"    > Large </ButtonOutlined3>
-           <ButtonContained4 variant="contained" size="medium" color="secondary"    > Medium </ButtonContained4>
-           <ButtonContained5 variant="contained" size="medium" color="warning"    > Medium </ButtonContained5>
-           <ButtonText3 variant="text" size="medium" color="secondary"    > Medium </ButtonText3>
-           <ButtonText4 variant="text" size="medium" color="warning"    > Medium </ButtonText4>
-           <ButtonText5 variant="text" size="medium" color="success"    > Medium </ButtonText5>
-           <ButtonOutlined4 variant="outlined" size="medium" color="error"    > Medium </ButtonOutlined4>
-           <ButtonOutlined5 variant="outlined" size="medium" color="info"    > Medium </ButtonOutlined5>
-           <ButtonContained6 variant="contained" size="small" color="error"    > Small </ButtonContained6>
-           <ButtonText6 variant="text" size="small" color="error"    > Small </ButtonText6>
-           <ButtonOutlined6 variant="outlined" size="small" color="warning"    > Small </ButtonOutlined6>
-         </Buttons>
-         <Icons >
-           <Icon1    fontSize = { "medium"}  component = { StarFilled1}/>
-           <Icon2    fontSize = { "large"}  component = { StarHalfFilled1}/>
-           <Icon3    fontSize = { "small"}  component = { StarFilled2}/>
-         </Icons>
-         <Links >
-           <Link1 href="#" underline="always"  >Link</Link1>
-           <Link2 href="#" underline="hover"  >Link</Link2>
-           <Link3 href="#" underline="none"  >Link</Link3>
-           <Link4 href="#" underline="always"  >Link</Link4>
-           <Link5 href="#" underline="hover"  >Link</Link5>
-           <Link6 href="#" underline="none"  >Link</Link6>
-           <Link7 href="#" underline="none"  >Link</Link7>
-         </Links>
-         <AutoComplete >
-           <Autocomplete1        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="standard" {...params} fullWidth  label={`Label`}  /> )} />
-           <Autocomplete2        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="standard" {...params} fullWidth  label={`Label`}  /> )} />
-           <Autocomplete3        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="outlined" {...params} fullWidth  label={`Label`}  /> )} />
-           <Autocomplete4        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="filled" {...params} fullWidth  label={`Label`}  /> )} />
-           <Autocomplete5        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="outlined" {...params} fullWidth  label={`Label`}  /> )} />
-           <Autocomplete6        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="filled" {...params} fullWidth  label={`Label`}  /> )} />
-         </AutoComplete>
-       </Top>
-       <Btm >
-         <Checkboxes >
-           <Checkbox1  size="small" color="info" />
-                 <FormControlLabel  control={<Checkbox2  size="small" color="primary"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox3  size="medium" color="primary"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox4  size="medium" color="info"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox5  size="medium" color="secondary"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox6  size="medium" color="error"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox7  size="medium" color="warning"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox8  size="medium" color="info"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox9  size="medium" color="success"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox10  size="small" color="secondary"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox11  size="small" color="error"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox12  size="small" color="warning"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox13  size="small" color="info"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox14  size="small" color="success"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox15  size="small" color="primary"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox16 defaultChecked={true}  size="medium" color="primary"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox17  size="medium" color="primary"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox18  size="medium" color="secondary"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox19  size="medium" color="error"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox20  size="medium" color="warning"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox21  size="medium" color="info"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox22  size="medium" color="success"/>} label={`Label`} />
-                 <FormControlLabel  control={<Checkbox23  size="medium" color="primary"/>} label={`Label`} />
-               </Checkboxes>
-         <Avatar1 >
-           <Avatar2 variant="circular" src={Avatar2Image} alt={"Avatar"}   />
-           <Avatar3 variant="circular" src={Avatar3Image} alt={"Avatar"}   />
-           <Avatar4 variant="circular" src={Avatar4Image} alt={"Avatar"}   />
-           <Avatar5 variant="square" src={Avatar5Image} alt={"Avatar"}   />
-           <Avatar6 variant="square" src={Avatar6Image} alt={"Avatar"}   />
-           <Avatar7 variant="square" src={Avatar7Image} alt={"Avatar"}   />
-           <Avatar8 variant="rounded" src={Avatar8Image} alt={"Avatar"}   />
-           <Avatar9 variant="rounded" src={Avatar9Image} alt={"Avatar"}   />
-           <Avatar10 variant="rounded" src={Avatar10Image} alt={"Avatar"}   />
-         </Avatar1>
-         <Switch1 >
-           <Switch2 defaultChecked={false} color="info" size="medium"    />
-           <Switch3 defaultChecked={false} color="success" size="medium"    />
-           <Switch4 defaultChecked={false} color="info" size="medium"    />
-           <Switch5 defaultChecked={true} color="primary" size="medium"    />
-           <Switch6 defaultChecked={true} color="secondary" size="medium"    />
-           <Switch7 defaultChecked={true} color="error" size="medium"    />
-           <Switch8 defaultChecked={true} color="warning" size="medium"    />
-           <Switch9 defaultChecked={true} color="info" size="medium"    />
-           <Switch10 defaultChecked={true} color="success" size="medium"    />
-           <FormControlLabel  control={<Switch11 defaultChecked={false} color="info" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch12 defaultChecked={false} color="primary" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch13 defaultChecked={true} color="primary" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch14 defaultChecked={true} color="info" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch15 defaultChecked={false} color="success" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch16 defaultChecked={true} color="primary" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch17 defaultChecked={true} color="secondary" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch18 defaultChecked={true} color="error" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch19 defaultChecked={true} color="warning" size="medium"  />} label={`Label`} />
-           <FormControlLabel  control={<Switch20 defaultChecked={true} color="success" size="medium"  />} label={`Label`} />
-         </Switch1>
-         <Table1   />
-       </Btm>
+       <Frame7 >
+         <AlertFilled variant="filled" severity={"error"}   > Description </AlertFilled>
+           <AlertOutlined1   />
+         <AlertStandard1   />
+         <AlertFilled1 variant="filled" severity={"warning"}   > Description </AlertFilled1>
+           <AlertOutlined2   />
+         <AlertStandard2   />
+         <AlertFilled2 variant="filled" severity={"info"}   > Description </AlertFilled2>
+           <AlertOutlined3   />
+         <AlertStandard3   />
+         <AlertFilled3 variant="filled" severity={"success"}   > Description </AlertFilled3>
+           <AlertOutlined4   />
+         <AlertStandard4   />
+       </Frame7>
+       <Frame2 >
+         <ButtonContained variant="contained" size="large" color="primary"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ChevronRightFilled1 } />}  > Large </ButtonContained>
+         <ButtonContained1 variant="contained" size="large" color="info"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ChevronRightFilled2 } />}  > Large </ButtonContained1>
+         <ButtonContained2 variant="contained" size="large" color="info"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ChevronRightFilled3 } />}  > Large </ButtonContained2>
+         <ButtonContained3 variant="contained" size="large" color="success"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ChevronRightFilled4 } />}  > Large </ButtonContained3>
+         <ButtonText variant="text" size="large" color="primary"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ArrowForwardFilled1 } />}  > Large </ButtonText>
+         <ButtonText1 variant="text" size="large" color="info"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ArrowForwardFilled2 } />}  > Large </ButtonText1>
+         <ButtonText2 variant="text" size="large" color="info"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ArrowForwardFilled3 } />}  > Large </ButtonText2>
+         <ButtonOutlined variant="outlined" size="large" color="primary"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ArrowForwardFilled4 } />}  > Large </ButtonOutlined>
+         <ButtonOutlined1 variant="outlined" size="large" color="info"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ArrowForwardFilled5 } />}  > Large </ButtonOutlined1>
+         <ButtonOutlined2 variant="outlined" size="large" color="success"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ArrowForwardFilled6 } />}  > Large </ButtonOutlined2>
+         <ButtonOutlined3 variant="outlined" size="large" color="secondary"   endIcon={ <SvgIcon sx={{width: "18px", height: "22px"}} component = { ArrowForwardFilled7 } />}  > Large </ButtonOutlined3>
+         <ButtonContained4 variant="contained" size="medium" color="secondary"   endIcon={ <SvgIcon sx={{width: "16px", height: "20px"}} component = { ChevronRightFilled5 } />}  > Medium </ButtonContained4>
+         <ButtonContained5 variant="contained" size="medium" color="warning"   endIcon={ <SvgIcon sx={{width: "16px", height: "20px"}} component = { ChevronRightFilled6 } />}  > Medium </ButtonContained5>
+         <ButtonText3 variant="text" size="medium" color="secondary"   endIcon={ <SvgIcon sx={{width: "16px", height: "20px"}} component = { ArrowForwardFilled8 } />}  > Medium </ButtonText3>
+         <ButtonText4 variant="text" size="medium" color="warning"   endIcon={ <SvgIcon sx={{width: "16px", height: "20px"}} component = { ArrowForwardFilled9 } />}  > Medium </ButtonText4>
+         <ButtonText5 variant="text" size="medium" color="success"   endIcon={ <SvgIcon sx={{width: "16px", height: "20px"}} component = { ArrowForwardFilled10 } />}  > Medium </ButtonText5>
+         <ButtonOutlined4 variant="outlined" size="medium" color="error"   endIcon={ <SvgIcon sx={{width: "16px", height: "20px"}} component = { ArrowForwardFilled11 } />}  > Medium </ButtonOutlined4>
+         <ButtonOutlined5 variant="outlined" size="medium" color="info"   endIcon={ <SvgIcon sx={{width: "16px", height: "20px"}} component = { ArrowForwardFilled12 } />}  > Medium </ButtonOutlined5>
+         <ButtonContained6 variant="contained" size="small" color="error"   endIcon={ <SvgIcon sx={{width: "16px", height: "18px"}} component = { ChevronRightFilled7 } />}  > Small </ButtonContained6>
+         <ButtonText6 variant="text" size="small" color="error"   endIcon={ <SvgIcon sx={{width: "16px", height: "18px"}} component = { ArrowForwardFilled13 } />}  > Small </ButtonText6>
+         <ButtonOutlined6 variant="outlined" size="small" color="warning"   endIcon={ <SvgIcon sx={{width: "16px", height: "18px"}} component = { ArrowForwardFilled14 } />}  > Small </ButtonOutlined6>
+       </Frame2>
+       <Frame4 >
+         <Link1 href="#" underline="always"  >Link</Link1>
+         <Link2 href="#" underline="hover"  >Link</Link2>
+         <Link3 href="#" underline="none"  >Link</Link3>
+         <Link4 href="#" underline="always"  >Link</Link4>
+         <Link5 href="#" underline="hover"  >Link</Link5>
+         <Link6 href="#" underline="none"  >Link</Link6>
+         <Link7 href="#" underline="none"  >Link</Link7>
+       </Frame4>
+       <Frame3 >
+         <Autocomplete1        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="standard" {...params} fullWidth  label={`Label`}  /> )} />
+         <Autocomplete2        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="standard" {...params} fullWidth  label={`Label`}  /> )} />
+         <Autocomplete3        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="outlined" {...params} fullWidth  label={`Label`}  /> )} />
+         <Autocomplete4        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="filled" {...params} fullWidth  label={`Label`}  /> )} />
+         <Autocomplete5        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="outlined" {...params} fullWidth  label={`Label`}  /> )} />
+         <Autocomplete6        autoHighlight disableClearable openOnFocus blurOnSelect   renderInput={(params) => ( <TextField variant="filled" {...params} fullWidth  label={`Label`}  /> )} />
+       </Frame3>
+       <Frame9 >
+         <FormControlLabel  control={<Checkbox1  size="small" color="info"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox2  size="small" color="primary"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox3  size="medium" color="primary"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox4  size="medium" color="info"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox5  size="medium" color="secondary"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox6  size="medium" color="error"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox7  size="medium" color="warning"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox8  size="medium" color="info"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox9  size="medium" color="success"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox10  size="small" color="secondary"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox11  size="small" color="error"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox12  size="small" color="warning"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox13  size="small" color="info"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox14  size="small" color="success"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox15  size="small" color="primary"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox16 defaultChecked={true}  size="medium" color="primary"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox17  size="medium" color="primary"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox18  size="medium" color="secondary"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox19  size="medium" color="error"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox20  size="medium" color="warning"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox21  size="medium" color="info"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox22  size="medium" color="success"/>} label={`Label`} />
+               <FormControlLabel  control={<Checkbox23  size="medium" color="primary"/>} label={`Label`} />
+             </Frame9>
+       <Frame8 >
+         <Avatar1 variant="circular" src={Avatar1Image} alt={"Avatar"}   />
+         <Avatar2 variant="circular" src={Avatar2Image} alt={"Avatar"}   />
+         <Avatar3 variant="circular" src={Avatar3Image} alt={"Avatar"}   />
+         <Avatar4 variant="square" src={Avatar4Image} alt={"Avatar"}   />
+         <Avatar5 variant="square" src={Avatar5Image} alt={"Avatar"}   />
+         <Avatar6 variant="square" src={Avatar6Image} alt={"Avatar"}   />
+         <Avatar7 variant="rounded" src={Avatar7Image} alt={"Avatar"}   />
+         <Avatar8 variant="rounded" src={Avatar8Image} alt={"Avatar"}   />
+         <Avatar9 variant="rounded" src={Avatar9Image} alt={"Avatar"}   />
+       </Frame8>
+       <Frame10 >
+         <Switch1 defaultChecked={false} color="info" size="medium"    />
+         <Switch2 defaultChecked={false} color="success" size="medium"    />
+         <Switch3 defaultChecked={false} color="info" size="medium"    />
+         <Switch4 defaultChecked={true} color="primary" size="medium"    />
+         <Switch5 defaultChecked={true} color="secondary" size="medium"    />
+         <Switch6 defaultChecked={true} color="error" size="medium"    />
+         <Switch7 defaultChecked={true} color="warning" size="medium"    />
+         <Switch8 defaultChecked={true} color="info" size="medium"    />
+         <Switch9 defaultChecked={true} color="success" size="medium"    />
+         <FormControlLabel  control={<Switch10 defaultChecked={false} color="info" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch11 defaultChecked={false} color="primary" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch12 defaultChecked={true} color="primary" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch13 defaultChecked={true} color="info" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch14 defaultChecked={false} color="success" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch15 defaultChecked={true} color="primary" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch16 defaultChecked={true} color="secondary" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch17 defaultChecked={true} color="error" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch18 defaultChecked={true} color="warning" size="medium"  />} label={`Label`} />
+         <FormControlLabel  control={<Switch19 defaultChecked={true} color="success" size="medium"  />} label={`Label`} />
+       </Frame10>
+       <Table1   />
      </Mui59Test1>
    );
 }
