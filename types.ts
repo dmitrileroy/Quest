@@ -13,6 +13,44 @@
 *
 **********************************************************************/
 
+
+export interface Mui59TestProps {
+    className?: any;
+  };
+  
+
+  export interface Account1Props {
+    className?: any;
+  };
+  
+
+  export interface HomeProps {
+    className?: any;
+  };
+  
+
+  export interface Card18Props {
+    className?: any;
+    prop1: any;
+  };
+  
+
+  export interface Frame2Props {
+    className?: any;
+  };
+  
+
+  export interface Frame7Props {
+    className?: any;
+  };
+  
+
+  export interface Frame4Props {
+    className?: any;
+  };
+  
+  
+
 export interface Frame2Props {
   test100: any;
 };
